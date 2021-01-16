@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body style="background-color:lightgrey;">
+
+     
+
+<div align="center" class="bg">
+<br><br><br><br>
+<br><br><br><br>
+     
+     <h5 style= "color:Tomato;font-family:Helvetica;font-size:400%;background-color:LightCyan;border:5px solid LightSalmon;">Customer Segmentation</h5>
+	 <h2 style= "color:Indigo;font-family:Helvetica;font-size:100%;background-color:Linen;border:2px solid MediumBlue;">Created by Subhajit Choudhury</h2>
+     <br><br><br>
+	 
+     <label for="Name">Name</label> 
+     <input type="text" id="Name" name="Name">
+     <br><br>
+     <label for="Age">Age (in years)</label> 
+     <input type="text" id="Age" name="Age">
+     <br><br>
+     
+    
+    <form action="/result" method="POST"> 
+    <label for="Annual_Income ">Annual Income (in thousand $)</label> 
+    <input type="text" id="Annual_Income" name="Annual_Income"> 
+    <br><br>
+    <label for="Spending_Score">Enter Spending Score (1-100)</label> 
+    <input type="text" id="Spending_Score" name="Spending_Score"> 
+    <br><br>       
+    <input type="submit" value="Submit"> 
+  </form>      
+    
+    <h3 style= "color:Crimson;font-family:verdana;font-size:200%;background-color:LavenderBlush;border:4px solid LightCoral;"> {{ prediction }}</h3>
+    
+</div>
+    
+    
+
+
+</body>
+</html>
